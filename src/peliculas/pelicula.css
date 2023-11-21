@@ -1,0 +1,32 @@
+.contenedor-cartas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+.cartas img{
+    width: 100%;
+    height: 450px;
+}
+.cartas{
+    border: 1px solid black;
+    margin: 20px 0;
+    width: 320px;
+    box-shadow: 13px 15px 20px 1px #8b8b8b;
+}
+.cartas h1{
+    margin: 20px 10px;
+    font-size:30px ;
+    font-family:'Inter', sans-serif;
+}
+.popularidad{
+    margin:0 10px ;
+   font-size: 60px;
+}
+.cine-imagen{
+    width: 100%;
+    height: 520px;
+}
+.cine-formulario{
+    translate: 0 -389px;
+}

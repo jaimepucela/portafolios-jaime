@@ -1,0 +1,8 @@
+.nav-item:hover{
+    text-decoration: underline;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}

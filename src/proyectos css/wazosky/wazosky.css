@@ -1,0 +1,71 @@
+.wazosky{
+    height: 50vh;
+    width: 40vh;
+    position: relative;
+    padding-top: 63px ;
+    padding-right: 200px;
+	background-image:radial-gradient( #69e4d9 0%,#01396d 100%);
+}
+
+.contorno-wazosky{
+    translate: 74px 20px ;
+    box-shadow: inset -4px -20px 50px black;
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+    background-color: green;
+}
+.ojo-wazosky{
+    width: 114px;
+    height: 114px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: inset 0px -4px 20px 0px black;
+    translate: 50px 21px;
+}
+.pupila-wazosky{
+    height: 94px;
+    width: 89px;
+    translate: 11px 3px;
+    background-color: rgb(57 199 211 / 78%);
+    border-radius: 50%;
+    box-shadow: 1px 1px 7px 1px rgb(57 199 211 / 78%);
+}
+.iris-wazosky{
+    height: 61px;
+    width: 61px;
+    translate: 14px 17px;
+    background-color: rgb(0 0 0);
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px 2px black;
+}
+.punto-blanco{
+    height: 9px;
+    width: 9px;
+    translate: 42px 8px;
+    background-color: #ffffffc2;
+    border-radius: 50%;
+}
+.boca-mazosky{
+    height: 37px;
+    width: 44px;
+    background-color: #000000c7;
+    translate: 84px 31px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.dientes{
+    transform: rotate(65deg);
+    width: 13px;
+    height: 10px;
+    background-color: white;
+    translate: 4px 32px;
+}
+.diente-medio{
+    translate: 17px 14px;
+    transform: rotate(55deg);
+}
+.diente-derecho{
+    translate: 31px 20px;
+    transform: rotate(14deg);
+}

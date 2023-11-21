@@ -1,0 +1,35 @@
+
+.container{
+    padding-top: 70px;
+}
+.contenedor-contador{
+    width: 300px;
+    margin-top: 4%;
+    margin-left: 25%;
+    text-align: center;
+    background-color: rgba(0, 255, 200, 0.842);
+    box-shadow: 15px 15px 15px rgb(216, 139, 139);
+    border-radius: 20px;
+}
+.contador {
+    font-size: 60px;
+    text-decoration: underline white 8px;
+}
+.parrafo-contador{
+    font-size: 40px;
+    margin-top:40px;
+    
+}
+.boton1{
+    padding: 22px 26px;
+    
+}
+.boton2{
+    padding: 20px;
+}
+#botones-contador{
+    
+    margin: 30px;
+    border-radius: 10px;
+    font-size: 30px;
+}

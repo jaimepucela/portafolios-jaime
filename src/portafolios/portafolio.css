@@ -1,0 +1,473 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+/*mi foto*/
+#fondo{
+    height: 300px;
+    background: rgba(204, 204, 204, 0.625);
+    
+}
+#content{
+    margin: 20px auto;
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+}
+#mifoto{
+    height: 400px;
+    border-radius: 10%;
+    border: 5px solid white;
+}
+#mi-nombre{
+    font-size: 50px;
+    font-family: helvetica;
+}
+#soy{
+    font-size: 30px;
+    font-family:Arial;
+}
+
+
+
+hr{
+    background: #ccc;
+    height: 2px;
+    margin: 60px 20%;
+    width: 60%;
+}
+
+/*certificados*/
+
+#cabecera{
+    font-size: 50px;
+    font-family: helvetica;
+}
+#cabecera strong{
+    color: orange;
+}
+#bootchamp , #freecode , #titulo_html{
+    height: 500px;
+    margin: 0px 20px;
+    border: 4px solid white;
+}
+
+#a-cerca{
+    width: 640px;
+    float: right;
+}
+#a-cerca p{
+    font-size: 30px;
+    font-family:Arial;
+}
+#background{
+    display: block;
+    position: relative;
+    bottom: 200px;
+    height: 300px;
+    background: rgba(204, 204, 204, 0.625);
+    z-index: -1;
+}
+#mas-certificados{
+    background-color:#ffffff;
+    border: 3px solid black;
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+    margin-right: 2vh;
+    line-height: 7vh;
+}
+#mas-certificados ul{
+ list-style: none;  
+ font-size: 26px; 
+}
+#all-content{
+    display: flex;
+    justify-content: center;
+    
+}
+#aprender , .joven{
+    width: 300px;
+}
+#aprender{
+    position: relative;
+    bottom: 80px;
+    font-family: helvetica;
+    font-size: 40px;
+    padding: 0px 0px 50px 0px;
+    border-bottom: 14px solid black;
+    border-radius: 13px;
+    
+}
+#aprender strong{
+    color: orange;
+}
+.joven article p{
+    margin-left:15% ;
+    line-height: 24px;
+    position: relative;
+    top: 30px;
+    font-family: arial;
+    font-size: 17px;
+    text-align: justify;
+}
+
+/*portafolios*/
+#container-portafolio h1{
+    font-size: 50px;
+}
+#container-portafolio h1 strong{
+    color: orange;
+}
+#slider{
+    
+    width: 65%;
+    position: relative;
+    left: 20%;
+}
+.bx-wrapper , .bx-viewport{
+    height: 430px !important;
+}
+
+.fotos{
+    margin: 230px 0px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    
+}
+.fotos figure{
+    margin: 0;
+    position: relative;
+    height: 369px;
+    width: 630px;
+    overflow: hidden;
+}
+.fotos figure img{
+    height: 97%;
+    width: 97%;
+    transition: all 800ms ease-out;
+}
+.capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+    transition: all 300ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.capa h3{
+    color: white;
+    margin-top:25%; 
+    font-size: 50px;
+    font-family: arial;
+}
+.fotos figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+    cursor: pointer;
+    
+}
+
+#hr-fotos{
+    position: relative;
+    right: 390px;
+    width: 100%;
+}
+
+/*lenguajes de programacion*/
+#encabezado-lenguajes{
+    font-size: 50px;
+    font-family: helvetica;
+}
+#encabezado-lenguajes strong{
+    color: orange;
+}
+#lenguajes{
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+}
+.lenguas{
+    text-align: center;
+    height:90px;
+    width: 60px;
+}
+#lenguajes img{
+    height: 60px;
+    width: 60px;
+}
+.lenguaje{
+    letter-spacing: 5px;
+}
+
+/*footer*/
+footer{
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.924);
+    margin: 0px auto;
+}
+footer h2{
+    padding: 50px 0px 30px 0px;
+    font-size: 30px;
+}
+footer p{
+    font-size: 25px;
+}
+.redessociales{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+footer img{
+    width: 70px;
+    height: 120px;
+    padding: 30px 0px;
+    margin-bottom: 30px;  
+}
+
+footer img:hover{
+    border-bottom: 1px solid white;
+}
+
+/*responsive*/
+
+@media screen and ( max-width:1511px){
+    
+    #bootchamp,#freecode{
+        width: 800px;
+    }
+    #bootchamp{
+        margin-bottom: 200px;
+    }
+    
+    .fotos figure{
+        margin: 0 ;
+        
+        height: 269px;
+        width: 430px;
+        overflow: hidden;
+    }
+    
+}
+@media screen and (max-width:1386px){
+    #slider{
+        display: none;
+        visibility: hidden;
+        
+    }
+}
+@media screen and (max-width:937px){
+    .fotos{
+        display: flex;
+        flex-direction: column;
+        margin-left: 40%;
+    }
+}
+@media screen and (max-width:765px){
+    #titulo_html{
+        width: 80%;
+    }
+}
+@media screen and (max-width:1077px){
+    .fotos{
+        position: relative;
+        right: 140px;
+    }
+}
+
+@media screen and (max-width:1180px){
+    #bootchamp,#freecode{
+        width: 500px;
+    }
+    #bootchamp{
+        margin-bottom: 200px;
+    }
+    
+    .fotos{
+        grid-template-columns: 20% 20% 20%;
+    }
+    .fotos figure img{
+        height: 67%;
+        width: 67%;
+    }
+}
+@media screen and (max-width:1214px){
+    #lenguajes{
+        display: flex;
+        flex-direction: column;
+        margin-left: 40%;
+    }
+    .fotos{
+        grid-template-columns: 32% 32% 32%;
+    }
+
+}
+@media screen and (max-width:664px){
+    #a-cerca{
+        float: none;
+    }
+    .leer-mas{
+        display: none;
+        visibility: hidden
+    }
+    .more{
+        display: none;
+        visibility: hidden
+    }
+    #div_oculto{
+        display:block;
+        font-size: 25px;
+    }
+    #div_oculto strong{
+        color: orange;
+    }
+    #div_oculto ul{
+        line-height: 50px;
+        list-style: none;
+    }
+    
+    
+    
+}
+@media screen and (max-width:670px) {
+    
+    #all-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 30%;
+        
+    }
+    #selector-theme{
+        position: absolute;
+        top: -110px;
+        background: none;
+        width: 100%;
+        height: 40px;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        gap: 1px;
+    }
+    #to-black,#to-green,#to-blue,#to-white{
+        width: 30px;
+        height: 25px;
+        border: 1px solid white;
+        display: block;
+        margin: 0px 3px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        cursor: pointer;
+    }
+    
+    .joven{
+        position: relative;
+        bottom: 120px;
+    }
+    .joven article p{
+        
+        line-height: 24px;
+        
+        font-family: arial;
+        font-size: 17px;
+        text-align: justify;
+    }
+    .contenedor_oculto{
+        margin-right: 1030px;
+    }
+    
+   
+    #container-portafolio{
+        display: none;
+        visibility: hidden;
+    }
+    
+    #bootchamp,#freecode{
+        display: none;
+        visibility: hidden;
+    }
+    #lenguajes{
+        display: flex;
+        flex-direction: column;
+        margin-left: 40%;
+    }
+    #encabezado-lenguajes{
+        margin-top: 200px;
+    }
+    
+    #instagram,#linkedin,#correo,#whatsap{
+        width: 19px;
+        height: 19px;
+    }
+    #a-cerca p{
+        font-size: 20px;
+    }
+    #a-cerca{
+        float: left;
+        width:100% ;
+        
+    }
+    .capa{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:490px){
+    .fotos{
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 5%;
+        grid-template-rows: 1;
+        margin-left: 30%;
+    }
+
+    
+    #all-content{
+        margin-left: 10%;
+        
+    }
+}
+@media screen and (max-width:427px) {
+    .fotos{
+        margin: 230px 0px;
+        display: grid;
+        grid-template-columns: 2%;
+        grid-template-rows: 1;
+        margin-left: 10%;
+        
+    }
+    #mifoto{
+        height: 200px;
+    }
+    #aprender{
+        font-size: 22px;
+    }
+    .joven article p{
+        margin-left:-20px ;
+        line-height: 24px;
+        position: relative;
+        top: 40px;
+        font-family: arial;
+        font-size: 13px;
+        text-align: justify;
+    }
+    #titulo_html{
+        display: none;
+    }
+   
+}
+@media screen and (max-width:320px) {
+    #aprender , .joven{
+        width: 200px;
+        margin-left: 10%;
+    }
+}
